@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="dorukmacdo's Launcher1.exe" version="1.0.0.0" publicKeyToken="bf4eda209ac59965" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="dorukmacdo's Launcher1" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="dorukmacdo's Launcher1.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CmlLib.dll" size="157184">
+      <assemblyIdentity name="CmlLib" version="3.3.5.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>fJUofecxq5QelzOS0TTlPc6PXv7+cHS/qnjeFzlbKz0=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="dorukmacdo's Launcher1.exe" size="84416">
+      <assemblyIdentity name="dorukmacdo's Launcher1" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>B9mCiM/Hz6xwP8x8QjFuEHzHP48X8DC2euotLbUhh10=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Guna.UI2.dll" size="2331592">
+      <assemblyIdentity name="Guna.UI2" version="2.0.2.8" publicKeyToken="E4B9CDD7B4CDE4B4" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>LbTPYFSkajZYp3sFKKbFjQtHbT7/IRGtuIwyRhJtwfI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ICSharpCode.SharpZipLib.dll" size="204800">
+      <assemblyIdentity name="ICSharpCode.SharpZipLib" version="1.3.3.11" publicKeyToken="1B03E6ACF1164F73" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>wofpsHqCUYKPNZFDZMiaN9tgawwdZEV/nrj6Iljw3uM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Newtonsoft.Json.dll" size="701992">
+      <assemblyIdentity name="Newtonsoft.Json" version="13.0.0.0" publicKeyToken="30AD4FE6B2A6AEED" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>tiSUnfiw46YVP9+3MKfG9JkLZZLuDZIuF4hDPSdmEPM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SevenZip.dll" size="49664">
+      <assemblyIdentity name="SevenZip" version="19.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>LmcmIk3Fa0L0V94b7r/MkGFDOobhJ+xgiiR/JxBgjiY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="dorukmacdo's Launcher1.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>+CM46OnHRrXZXNLMx7+U3V3iubiYL//d8hGOR13lDhU=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DORUKMACDO\doruk" issuerKeyHash="69c1a63091aa65333931533753bf00c169623297" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>d8gNxBtQlnDa7DC6ulgaDrIlZnmbjgA6YZLTdIEvlag=</DigestValue></Reference></SignedInfo><SignatureValue>LP+TnaqKNmdHPrDtTpFbR+o3GADCsLWgHY2wF6ZNyHzv2AJ8gxgCIqe609x5kG7vJ9ixx9k+6UHdZHVgnMwjsy5+kzzcv10AOS2kKxd7jhpYhAajPF9o4vVTLdnyxgkmDUjUQDtecZgDYfaw8y6VTXAEFglzR1SrkDJs2Mhk4h4=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>s62nCzcbfjyxu4oH9PNM1LsWxa7UeO1+4xYt5MmFy+LFmMKkoerDZ10qVcdBjcbBT4A6kIqOQIR4BHI7vF9kJwpZGHPwDVQYzFD/RqubqpJWkUBK28TMf5UD88s+pJjsuka2+MNdxZzJu0auyXZhoQ7bV8vMOkS/yutx1X3YuGE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="a8952f8174d392613a008e9b796625b20e1a58baba30ecda7096501bc40dc877" Description="" Url=""><as:assemblyIdentity name="dorukmacdo's Launcher1.exe" version="1.0.0.0" publicKeyToken="bf4eda209ac59965" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DORUKMACDO\doruk</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>/BWun2JAeXzXoqifkOJXAXOe+WR1OxfPnbz/GwKILMM=</DigestValue></Reference></SignedInfo><SignatureValue>GZXBRgOlj+Pl2fK0yZTDWMO4g3kxZlAfS2egIY3gASAnNimNkXm6ALYYW0PLOKugDC1mKw5DU9w0pg/ZjonQLD8qGmnFBAqKGf/XY71Arm7gRTevfzaU9+URTzsTLstb+rMJgk/z6/6+58L6bD2mQrjFtb0udNh2E0aR7mJxzA0=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>s62nCzcbfjyxu4oH9PNM1LsWxa7UeO1+4xYt5MmFy+LFmMKkoerDZ10qVcdBjcbBT4A6kIqOQIR4BHI7vF9kJwpZGHPwDVQYzFD/RqubqpJWkUBK28TMf5UD88s+pJjsuka2+MNdxZzJu0auyXZhoQ7bV8vMOkS/yutx1X3YuGE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB2TCCAUKgAwIBAgIQGYWvd1yUFZRN5CfDFm6fkTANBgkqhkiG9w0BAQsFADArMSkwJwYDVQQDHiAARABPAFIAVQBLAE0AQQBDAEQATwBcAGQAbwByAHUAazAeFw0yMjAxMjgxOTAwMzhaFw0yMzAxMjkwMTAwMzhaMCsxKTAnBgNVBAMeIABEAE8AUgBVAEsATQBBAEMARABPAFwAZABvAHIAdQBrMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCzracLNxt+PLG7igf080zUuxbFrtR47X7jFi3kyYXL4sWYwqSh6sNnXSpVx0GNxsFPgDqQio5AhHgEcju8X2QnClkYc/ANVBjMUP9Gq5uqklaRQErbxMx/lQPzyz6kmOy6Rrb4w13FnMm7Rq7JdmGhDttXy8w6RL/K63HVfdi4YQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAGHrAYtbkzgZI/QJ3whReNMxnCeB7QjeIAE0vVjFm/XbZlJw8zq/6ic1J3JoMUSkoABwipv2kM1K71fv3QOzDyoboahl5fgb2dIPaHVCccB2b8hJ0DUSg2bWxaeDAodTabqmIRtNxGeCxYNE5EWhyo5KLx1xHZoCoHHH2ttmnE+I</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
